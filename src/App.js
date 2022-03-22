@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="wrapper clear">
-        <div className="overlay">
+        <div style={{display: "none"}} className="overlay">
         <div className="drawer" >
             <h2 className="mb-30 d-flex justify-between ">Корзина<img className="removeBtn cu-p" src="img/btn-remove.svg" alt="img/btn-remove.svg" /></h2>
             
