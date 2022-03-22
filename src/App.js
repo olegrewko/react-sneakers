@@ -191,64 +191,7 @@ function App() {
         </div>
       </div>
       </div>
-      <div className="d-flex">  
-      <div className="card">
-        <img widht="133" height="112"  src="img/sneakers/1.jpg" alt="img/sneakers/1.jpg" />
-        <h5>Мужские кроссовки Nike Blazzers</h5>
-        <div className="d-flex justify-between align-center">
-        
-          <div className="d-flex flex-column">
-            <span>Цена:</span>
-            <b>1200 руб</b>
-          </div>
-          <button>
-            <img widht="10" height="10" src="img/plus.svg" alt='img/plus.svg' />
-          </button>
-        </div>
-      </div>
-      <div className="card">
-        <img widht="133" height="112"  src="img/sneakers/2.jpg" alt="img/sneakers/2.jpg" />
-        <h5>Мужские кроссовки Nike Blazzers</h5>
-        <div className="d-flex justify-between align-center">
-        
-          <div className="d-flex flex-column">
-            <span>Цена:</span>
-            <b>1200 руб</b>
-          </div>
-          <button>
-            <img widht="10" height="10" src="img/plus.svg" alt='img/plus.svg' />
-          </button>
-        </div>
-      </div>
-      <div className="card">
-        <img widht="133" height="112"  src="img/sneakers/3.jpg" alt="img/sneakers/3.jpg" />
-        <h5>Мужские кроссовки Nike Blazzers</h5>
-        <div className="d-flex justify-between align-center">
-        
-          <div className="d-flex flex-column">
-            <span>Цена:</span>
-            <b>1200 руб</b>
-          </div>
-          <button>
-            <img widht="10" height="10" src="img/plus.svg" alt='img/plus.svg' />
-          </button>
-        </div>
-      </div>
-      <div className="card">
-        <img widht="133" height="112"  src="img/sneakers/4.jpg" alt="img/sneakers/4.jpg" />
-        <h5>Мужские кроссовки Nike Blazzers</h5>
-        <div className="d-flex justify-between align-center">
-        
-          <div className="d-flex flex-column">
-            <span>Цена:</span>
-            <b>1200 руб</b>
-          </div>
-          <button>
-            <img widht="10" height="10" src="img/plus.svg" alt='img/plus.svg' />
-          </button>
-        </div>
-      </div>
-      </div>  
+       
     </div>
     
 
