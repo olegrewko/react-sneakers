@@ -4,10 +4,65 @@ import './App.css';
 function App() {
   return (
     <div className="wrapper clear">
+        <div className="overlay">
+        <div className="drawer" >
+            <h3 className="mb-30">Корзина</h3>
+                <div className="items">
+                <div className="cartTotalBlock">
+                    <ul >
+                        <li >
+                            <span>Итого:</span>
+                            <div></div>
+                            <b>12 000</b>
+                        </li>
+                        <li >
+                            <span>Доставка:</span>
+                            <div></div>
+                            <b>500 руб</b>
+                        </li>
+                    </ul>
+                    <button className="greenButton">Оформить заказ<img src="img/arrow.svg" alt="img/arrow.svg" /></button>
+                    </div>    
+                </div>
+                        
+            <div className="cartItem d-flex align-center mb-5">
+                <img className="mr-10" widht={70} height={70} src="img/sneakers/1.jpg" alt="img/sneakers/1.jpg" />
+                <div>
+                    <p className="mb-5">Мужские кроссовки Nike Blazzers</p>
+                    <b>12 200руб</b>
+                </div>
+                <img className="removeBtn" src="img/btn-remove.svg" alt="img/btn-remove.svg" />
+            </div>
+            <div className="cartItem d-flex align-center mb-5">
+                <img className="mr-10" widht={70} height={70} src="img/sneakers/1.jpg" alt="img/sneakers/1.jpg" />
+                <div>
+                    <p className="mb-5">Мужские кроссовки Nike Blazzers</p>
+                    <b>12 200руб</b>
+                </div>
+                <img className="removeBtn" src="img/btn-remove.svg" alt="img/btn-remove.svg" />
+            </div>
+            {/* <div className="items">
+                    <ul className="cartTotalBlock">
+                        <li >
+                            <span>Итого:</span>
+                            <div></div>
+                            <b>12 000</b>
+                        </li>
+                        <li >
+                            <span>Доставка:</span>
+                            <div></div>
+                            <b>500 руб</b>
+                        </li>
+                    </ul>
+
+                </div>    */}
+        </div>
+  
+        </div>   
 
     <header className='d-flex justify-between align-cetnter p-40'>
       <div className='headerLeft'>
-       <img widht={40} height={40}  src="img/logo.png" />
+       <img widht={40} height={40}  src="img/logo.png" alt="img/logo.png" />
       <div className='header-info'>
         <h3>React sneakers</h3>
         <p className="opacity-5">Магазин лучших кроссовок</p>
@@ -56,7 +111,7 @@ function App() {
       </div>
       <div className="card">
         <img widht="133" height="112"  src="img/sneakers/2.jpg" alt="img/sneakers/2.jpg" />
-        <h5>Мужские кроссовки Nike Blazzers</h5>
+        <h5>Мужские кроссовки Nike Atom</h5>
         <div className="d-flex justify-between align-center">
         
           <div className="d-flex flex-column">
@@ -156,6 +211,8 @@ function App() {
       </div>
       </div>  
     </div>
+    
+
   );
 }
 
