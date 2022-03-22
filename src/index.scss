@@ -108,8 +108,8 @@ header {
     font-size: 12px;
   }
   &:hover {
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
-    transform: translateY(-5px);
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px);
   }
   .favorite {
     position: absolute;
@@ -151,7 +151,7 @@ h5 {
 
 .search-block {
   border: 1px solid #f3f3f3;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0 15px;
   position: relative;
 

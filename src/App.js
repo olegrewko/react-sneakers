@@ -26,11 +26,21 @@ function App() {
       </ul>
       </div>   
     </header>
-    <div className='content'>
-    <h1 className='mb-40 ml-10'>Все кроссовки</h1>
+    <div className='content p-40'>
+    <div className='d-flex align-center justify-between mb-40'>   
+    <h1 className=' ml-10'>Все кроссовки</h1>
+    <div className='search-block d-flex'>
+        <img src='img/search.svg' alt='Search' />
+        <input placeholder='Поиск...' />
+        </div>  
       </div>
+      </div>
+
       <div className="d-flex">
       <div className="card">
+        <div className="favorite">
+          <img src="/img/liked.svg" alt="Liked" />
+        </div>    
         <img widht="133" height="112"  src="img/sneakers/1.jpg" alt="img/sneakers/1.jpg" />
         <h5>Мужские кроссовки Nike Blazzers</h5>
         <div className="d-flex justify-between align-center">
