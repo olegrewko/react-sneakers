@@ -4,10 +4,10 @@ import Card from './components/Card.js';
 import Header_c from './components/Header_c.js';
 import Drawer from './components/Drawer.js';
 
-const arr=[{name: 'Мужские кроссовки Nike Blazzers',price: 1200},
-           {name: 'Мужские кроссовки Nike Air',price: 2200},
-           {name: 'Мужские кроссовки Converse',price: 1200},
-           {name: 'Мужские кроссовки New Ballance',price: 2200} 
+const arr=[{ title:"Мужские кроссовки Nike Air", price:"1200", imageUrl:"/img/sneakers/1.jpg"} ,
+           { title:"Мужские кроссовки Nike Air", price:"22000", imageUrl:"/img/sneakers/2.jpg" },
+           { title:"Мужские кроссовки  Converse", price:"32000", imageUrl:"/img/sneakers/3.jpg"  },
+           { title:"Мужские кроссовки New Ballance", price:"42000", imageUrl:"/img/sneakers/4.jpg" } 
 ];
 
 function App() {
@@ -31,16 +31,14 @@ function App() {
       </div>
 
       <div className="d-flex">
-      <Card title="Мужские кроссовки Nike Blazzers" price={1200} imageUrl="/img/sneakers/1.jpg" />
+      {/* <Card title={obj.title} price={1200} imageUrl="/img/sneakers/1.jpg" />
       <Card title="Мужские кроссовки Nike Air" price="22000" imageUrl="/img/sneakers/2.jpg" />
       <Card title="Мужские кроссовки  Converse" price="32000" imageUrl="/img/sneakers/3.jpg"  />
-      <Card title="Мужские кроссовки New Ballance" price="42000" imageUrl="/img/sneakers/4.jpg" />
-    {/* {arr.map((obj) =>(
-        <Card />
-    ) )}  */}
-      {/* <Card />
-      <Card />
-      <Card /> */}
+      <Card title="Мужские кроссовки New Ballance" price="42000" imageUrl="/img/sneakers/4.jpg" /> */}
+    {arr.map((obj) =>(
+        <Card title={obj.title} price={obj.price} imageUrl={obj.imageUrl} />
+    ) )} 
+     
       </div>
        
     </div>
