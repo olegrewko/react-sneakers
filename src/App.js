@@ -27,7 +27,7 @@ function App() {
       </div>   
     </header>
     <div className='content'>
-    <h1 className='mb-40'>Все кроссовки</h1>
+    <h1 className='mb-40 ml-10'>Все кроссовки</h1>
       </div>
       <div className="d-flex">
       <div className="card">
