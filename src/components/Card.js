@@ -1,6 +1,7 @@
-function Card(props){ 
+function Card(props){
+  console.log(props); 
     return (
-<div className="card">
+<div classoName="card">
       <div className="favorite">
       <img  src="img/liked.svg" alt="img/liked.svg" />
       </div >
@@ -13,9 +14,9 @@ function Card(props){
       
         <div className="d-flex ">
           <span>Цена:</span>
-          <b>{props.price}</b>
+          <b>{props.price}руб</b>
         </div>
-        <button>
+        <button className="button" onClick={props.onClick}>
           <img widht="10" height="10" src="img/plus.svg" alt='img/plus.svg' />
         </button>
       </div>

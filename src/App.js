@@ -36,7 +36,10 @@ function App() {
       <Card title="Мужские кроссовки  Converse" price="32000" imageUrl="/img/sneakers/3.jpg"  />
       <Card title="Мужские кроссовки New Ballance" price="42000" imageUrl="/img/sneakers/4.jpg" /> */}
     {arr.map((obj) =>(
-        <Card title={obj.title} price={obj.price} imageUrl={obj.imageUrl} />
+        <Card title={obj.title}
+         price={obj.price}
+          imageUrl={obj.imageUrl}
+          onClick={() => console.log(obj)} />
     ) )} 
      
       </div>
